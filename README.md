@@ -1,5 +1,5 @@
 # twitterPOV
-Just a quick scrip to look at twitter through someone else's Point-of-view.
+Just a quick script to look at twitter through someone else's Point-of-view.
 
 For example, if you like Elon Musk, the script will grab everyone he follows and build a private twitter list with everyone he follows. You can then use any off-the-shelf twitter client (that supports lists) to pull up the list and see the exact same twitter stream as Elon Musk would see.
 

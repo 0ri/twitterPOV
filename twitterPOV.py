@@ -32,8 +32,8 @@ if len(results) < 500:
 		api.CreateListsMember(list_id=str(listName.id), user_id=results[i:i+10])
 else:
 	print "Twitter lists capped, so limiting to the first 500"
-	for i in xrange(0, 500, 100):
-		print "adding " + str(i+100)
-		api.CreateListsMember(list_id=str(listName.id), user_id=results[i:i+100])
+	for i in xrange(0, 500, 10):
+		print "adding " + str(i+10)
+		api.CreateListsMember(list_id=str(listName.id), user_id=results[i:i+10])
 
 print "Created your new list here: http://twitter.com" + listName.uri
